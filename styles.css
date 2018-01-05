@@ -1,0 +1,28 @@
+
+.head{
+	width: 100%;
+	height: 10%;
+        background-image: url(https://s3.amazonaws.com/cuelogic/web/4172775.png)
+    }
+nav a{
+    text-decoration: none;
+    
+    
+}
+header {
+	position: fixed;
+
+}
+header a{
+	float: left
+
+
+}
+header img{
+	width: 20%;
+	height: 100%;
+}
+
+form input{
+	float: inline;
+}
