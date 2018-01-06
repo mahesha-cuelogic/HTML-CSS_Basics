@@ -4,10 +4,27 @@
 	height: 10%;
         background-image: url(https://s3.amazonaws.com/cuelogic/web/4172775.png)
     }
-nav a{
-    text-decoration: none;
+    nav{
+    	 width: 200px;
+    }
+    nav a{
+    	
+    	display: block;
+
+    	align-items: center;
+
+    }
+  nav  a:link,a:visited{
+    background-color: chartreuse;
     
+    padding: 14px 20px;
+    text-align: center;
     
+}
+nav a:hover,a:active{
+    background-color:black;
+    text-decoration-color: white;
+
 }
 header {
 	position: fixed;
@@ -24,5 +41,10 @@ header img{
 }
 
 form input{
-	float: inline;
+	display: block;
+	padding: 5px;
+	
+}
+p{
+	text-indent: 50px;
 }
